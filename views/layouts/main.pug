@@ -1,0 +1,45 @@
+extends default
+
+block body
+    div.container-fluid.text-center.navbar-fixed-top(style="background:#fff")
+        div.row.text-center(style="padding:5px 0")
+            div#city.col-xs-3
+                div.col-xs-3.pull-left
+                    span.glyphicon.glyphicon-map-marker
+                    div.col-xs-12 杭州
+            div.col-xs-6(style="height:40px;line-height:40px;font-size:20px;") 淘汽档口
+            div#cart.col-xs-3(style="padding:0")
+                span.glyphicon.glyphicon-shopping-cart
+                div.col-xs-12 购物车
+
+        div.row.bg-danger(style="padding:5px;")
+            div.col-xs-12
+                button.btn(style="width:100% !important;background:#fff")
+                    span.glyphicon.glyphicon-search &nbsp;
+                    span.small 4万车型 400万配件
+
+    div.container-fluid(style="margin-top:94px;margin-bottom:55px;")
+        block middle
+
+    <!--    底部信息    -->
+    div.container-fluid.text-center.navbar-fixed-bottom(style="padding:5px 0;height:55px;background:#d9d9d9")
+        div.row
+            div.col-xs-1
+            div.col-xs-2(onclick="alert(1)")
+                span.glyphicon.glyphicon-home(style="font-size:20px;")
+                div 首页
+            div.col-xs-2(onclick="alert(1)")
+                span.glyphicon.glyphicon-th(style="font-size:20px;")
+                div 查找
+            div.col-xs-2(onclick="alert(1)")
+                span.glyphicon.glyphicon-plane(style="font-size:20px;")
+                div 车型
+            div.col-xs-2(onclick="alert(1)")
+                span.glyphicon.glyphicon-bullhorn(style="font-size:20px;")
+                div 资讯
+            div.col-xs-2(style="padding:0", onclick="alert(1)")
+                span.glyphicon.glyphicon-user(style="font-size:20px;")
+                div 我的淘汽
+            div.col-xs-1
+
+    block footer

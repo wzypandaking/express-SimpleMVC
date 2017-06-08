@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+var app = require('../app');
+var log = log4js.get("system");
+
+var server = app.listen(3000, function() {
+  log.info('Express server start up, listening on port ' + server.address().port);
+});

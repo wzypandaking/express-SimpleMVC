@@ -1,0 +1,9 @@
+{
+  "apps" : [{
+    "name"       : "godness",
+    "script"     : "./www",
+    "instances"  : 4,
+    "watch"      : true,
+    "exec_mode"  : "cluster"
+  }]
+}
