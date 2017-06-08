@@ -1,4 +1,5 @@
-#godness   快速开发,稳定运行    simple & stable
+#SimpleMVC with express   快速开发,稳定运行    simple & stable
+基于express的MVC框架
 
 #一、安装
 
