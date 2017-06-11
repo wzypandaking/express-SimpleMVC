@@ -1,13 +1,13 @@
-#SimpleMVC with express   快速开发,稳定运行    simple & stable
+# SimpleMVC with express   快速开发,稳定运行    simple & stable
 基于express的MVC框架
 
-#一、安装
+# 一、安装
 
 npm install
 
 npm install connect-redis
 
-#二、启动
+# 二、启动
 
 方式1:    (可用于生成环境)
     cd bin
@@ -21,7 +21,7 @@ PS:
     该框架采用redis。请务必安装redis服务。
 
 
-##目录介绍
+## 目录介绍
     |_bin
     |___www                 程序主入口
     |___process.json        pm2的指定启动文件,参数可以参考 http://pm2.keymetrics.io/docs/usage/application-declaration/#act-on-a-specific-process
@@ -56,15 +56,15 @@ PS:
     |_app.js                应用主要入口
 
 
-#pug    语法简洁
+# pug    语法简洁
 模板采用pug,它的前身是jade。使用这个也是为了学习,发现pug第一次编译比较耗时,但是使用编译通过的代码,效率很高,一个简单的页面相差7-8倍
 还是值得学习一番的
 
-#session
+# session
 session采用redis的方式,从底层解决多应用的session的同步问题。
 
 
-#pm2 cluster模式包装应用稳定运行
+# pm2 cluster模式包装应用稳定运行
 
 npm install pm2 -g
 
